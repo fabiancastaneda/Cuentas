@@ -1,0 +1,161 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{bbding}
+\title{Cuentas}
+\author{fabian2121015 }
+\date{September 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Cuentas}
+\begin{align}
+m^{\prime } &= 4 \pi r^{2}\tilde{\rho}, \label{EinsEq300}  \\
+\nu^{\prime} & = \frac{4\pi r^{3}\tilde{P}+ m}{r(r-2m)}, \label{EinsEq311} \\
+8\pi \bar{P}_{\perp} &= \left\{ \left( 1-\frac{2m}{r} \right) \left( \nu^{\prime \prime} + (\nu^{\prime})^{2}+ \frac{\nu^{\prime}}{r}  \right) + \left(  \frac{m}{r^{2}} -\frac{m^{\prime }}{r}  \right) \left( \nu^{\prime} + \frac{1}{r}     \right)   \right\} 
+\nonumber \\ 
+& \qquad  + \frac{e^{-2\nu}}{4} \left\{ 2\left(1 - \frac{2m}{r} \right)^{-1}
+\left( \frac{\ddot{m}}{r} +\frac{2\dot{m}^2}{r^2} \left(1 - \frac{2m}{r} \right)^{-1}
+\right)\right. \nonumber \\
+& \qquad + \left.
+\frac{\dot{m}}{r}\left(1 - \frac{2m}{r} \right)^{-1}
+\left(\frac{\dot{m}}{r}\left(1 - \frac{2m}{r} \right)^{-1} -\dot{\nu}
+\right)
+\right\} \; \textrm{and} \label{EinsEq322} \\
+\dot{m} &= -\frac{4 \pi r^{2} e^{\nu-\lambda}}{1+\omega^{2}}\left( \omega(\tilde{\rho}+ \tilde{P})+ (1-\omega^{2})\mathcal{F}     \right)  \label{EinsEq301}\, ;
+\end{align}
+Los coeficientes de espín están definidos como
+\begin{equation}
+\gamma = -\dfrac{1}{2\sqrt{2}}\left( \dfrac{\dot{m}}{r}\left( 1-\dfrac{2m}{r}\right)^{-1} e^{-\nu} + \dfrac{4\pi r^{3}\bar{P}+m}{r \left( r-2m \right)}\left(1-\dfrac{2m}{r} \right)^{1/2}\right),
+\label{Equation1}
+\end{equation}
+\begin{equation}
+    \epsilon = \dfrac{1}{2\sqrt{2}}\left( \dfrac{\dot{m}}{r}\left( 1-\dfrac{2m}{r}\right)^{-1} e^{-\nu} - \dfrac{4\pi r^{3}\bar{P}+m}{r \left( r-2m \right)}\left(1-\dfrac{2m}{r} \right)^{1/2}\right)
+\end{equation}
+Evaluando (\ref{Equation1}) en la región anterior y posterior
+\begin{align}
+    \gamma_{+} = -\dfrac{1}{2\sqrt{2}}\left( \dfrac{\dot{m}_{+}}{r}\left( 1-\dfrac{2m_{+}}{r}\right)^{-1} e^{-\nu_{+}} + \dfrac{4\pi r^{3}\bar{P}_{+}+m_{+}}{r \left( r-2m_{+} \right)}\left(1-\dfrac{2m_{+}}{r} \right)^{1/2}\right),
+    \label{Equation 3}
+\end{align}
+\begin{align}
+    \gamma_{-} = -\dfrac{1}{2\sqrt{2}}\left( \dfrac{\dot{m}_{-}}{r}\left( 1-\dfrac{2m_{-}}{r}\right)^{-1} e^{-\nu_{-}} + \dfrac{4\pi r^{3}\bar{P}_{-}+m_{-}}{r \left( r-2m_{-} \right)}\left(1-\dfrac{2m_{-}}{r} \right)^{1/2}\right),
+    \label{Equation 4}
+\end{align}
+Sumando las ecuaciones anteriores se obtiene
+\begin{equation}
+ \left[   \gamma \right]= -\dfrac{1}{2\sqrt{2}}\left[  \dfrac{\dot{m}}{r}\left( 1-\dfrac{2m}{r}\right)^{-1} e^{-\nu} \right]+ \left[\dfrac{4\pi r^{3}\bar{P}+m}{r \left( r-2m \right)}\left(1-\dfrac{2m}{r} \right)^{1/2}\right],
+ \label{Equation 5}
+\end{equation}
+\begin{equation}
+  \left[  \epsilon \right]= \dfrac{1}{2\sqrt{2}}\left[  \dfrac{\dot{m}}{r}\left( 1-\dfrac{2m}{r}\right)^{-1} e^{-\nu} \right]- \left[\dfrac{4\pi r^{3}\bar{P}+m}{r \left( r-2m \right)}\left(1-\dfrac{2m}{r} \right)^{1/2}\right],
+  \label{Equation 5.1}
+\end{equation}
+Si se multiplica (\ref{Equation 3}) por $\dot{C}e^{-\nu_{+}}$ y (\ref{Equation 4}) por $\dot{C}e^{-\nu_{-}}$ se obtiene
+\begin{equation}
+    \gamma_{+} \dot{C} e^{-\nu_{+}} = -\dfrac{1}{2\sqrt{2}}\left( \dfrac{\dot{m}_{+}}{r}\left( 1-\dfrac{2m_{+}}{r}\right)^{-1} \dot{C}e^{-2\nu_{+}} + \dfrac{4\pi r^{3}\bar{P}_{+}+m_{+}}{r \left( r-2m_{+} \right)}\left(1-\dfrac{2m_{+}}{r} \right)^{1/2}\dot{C}e^{-\nu_{+}}\right), 
+    \label{Equation 6}
+\end{equation}
+Y evaluando en la región anterior
+\begin{equation}
+    \gamma_{-} \dot{C} e^{-\nu_{-}} = -\dfrac{1}{2\sqrt{2}}\left( \dfrac{\dot{m}_{-}}{r}\left( 1-\dfrac{2m_{-}}{r}\right)^{-1} \dot{C}e^{-2\nu_{-}} + \dfrac{4\pi r^{3}\bar{P}_{-}+m_{-}}{r \left( r-2m_{-} \right)}\left(1-\dfrac{2m_{-}}{r} \right)^{1/2}\dot{C}e^{-\nu_{-}}\right), 
+    \label{equation 7}
+    \end{equation}
+    Las ecuaciones (\ref{Equation 6}) y (\ref{equation 7}) dan el salto como 
+    \begin{equation}
+        \left[ \dot{C}\gamma e^{-\nu}\right]= -\dfrac{1}{2\sqrt{2}}\left[  \dfrac{\dot{m} \dot{C}}{r}\left( 1-\dfrac{2m}{r}\right)^{-1} e^{-2\nu} \right] + \left[\dfrac{4\pi r^{3}\bar{P}+m}{r \left( r-2m \right)}\left(1-\dfrac{2m}{r} \right)^{1/2}\dot{C}e^{-\nu}\right],
+        \label{Equation 9.1}
+    \end{equation}
+     Lo mismo se hace con el coeficiente de espin $\epsilon$.
+     \begin{equation}
+        \left[ \dot{C}\epsilon e^{-\nu}\right]= \dfrac{1}{2\sqrt{2}}\left[  \dfrac{\dot{m} \dot{C}}{r}\left( 1-\dfrac{2m}{r}\right)^{-1} e^{-2\nu} \right] - \left[\dfrac{4\pi r^{3}\bar{P}+m}{r \left( r-2m \right)}\left(1-\dfrac{2m}{r} \right)^{1/2} \dot{C}e^{-\nu}\right],
+        \label{Equation 9.2}
+    \end{equation}
+    Al sumarse (\ref{Equation 5}) y (\ref{Equation 5.1}) se obtiene
+    \begin{equation}
+        -\sqrt{2} \left(\left[ \gamma\right] + \left[ \epsilon \right] \right) = \left[\dfrac{4\pi r^{3}\bar{P}+m}{r \left( r-2m \right)}\left(1-\dfrac{2m}{r} \right)^{1/2}\right]
+    \end{equation}
+    y al restarse (\ref{Equation 9.1}) y (\ref{Equation 9.2}) da
+    \begin{equation}
+       - \sqrt{2}C \dot{C}\left( \left[ \gamma e^{-\nu}\right]- \left[ \epsilon e^{-\nu}\right]\right)= \left[  \dot{m}\dot{C}\left( 1-\dfrac{2m}{r}\right)^{-1} e^{-2\nu} \right]
+    \end{equation}
+    Si se suman las dos ecuaciones anteriores, se obtiene las condiciones de Rankine-hugoniot
+    \begin{equation}
+        \left[  \dot{m}\dot{C}\left( 1-\dfrac{2m}{r}\right)^{-1} e^{-2\nu} \right] + \left[\dfrac{4\pi r^{3}\bar{P}+m}{r \left( r-2m \right)}\left(1-\dfrac{2m}{r} \right)^{1/2}\right]= -\sqrt{2}C \dot{C}\left( \left[ \gamma e^{-\nu}\right]- \left[ \epsilon e^{-\nu}\right]\right)- \sqrt{2} \left(\left[ \gamma\right] + \left[ \epsilon \right] \right) 
+    \end{equation}
+    La otra condición de Rankine-Hugoniot se halla de la siguiente forma
+    \begin{equation}
+        \dot{m}(r,t)|_{C(t)}=\dot{m}(t,C)-\dot{C}m'(t,r)|_{C},
+        \label{SecondRankine}
+    \end{equation}
+    Evaluando la función en una región antes y después
+    \begin{equation}
+        \left(\dot{m}(r,t)|_{C(t)}\right)_{+}=\left(\dot{m}(t,C)\right)_{+}-\dot{C}\left(m'(t,r)|_{C}\right)_{+},
+        \label{Rankinesecond1}
+    \end{equation}
+    \begin{equation}
+        \left(\dot{m}(r,t)|_{C(t)}\right)_{-}=\left(\dot{m}(t,C)\right)_{-}-\dot{C}\left(m'(t,r)|_{C}\right)_{-},
+        \label{Rankinesecond2}
+    \end{equation}
+    Restando (\ref{Rankinesecond1}) y (\ref{Rankinesecond2}), utilizando la ecuación de Einstein 
+    \begin{equation}
+        m'= 4\pi r^{2}\bar{\rho},
+    \end{equation}
+    Con la ecuación de Einstein
+    \begin{equation}
+        \dot{m}_{+}+ 4\pi r^{2}\dot{C}\bar{\rho}_{+}= \left \{ m_{+}  \right\}_{0},
+        \label{Masapoint1}
+    \end{equation}
+    \begin{equation}
+        \dot{m}_{-}+ 4\pi r^{2}\dot{C}\bar{\rho}_{-}= \left \{ m_{-}  \right\}_{0},
+        \label{MasaPoint2}
+    \end{equation}
+    
+    se obtiene el salto en la segunda condición de Rankine Hugoniot
+    \begin{equation}
+        \left[ \dot{m}\right] + \left[ 4\pi r^{2}\dot{C}\bar{\rho} \right] - \left \{ \left[ m \right]  \right \}_{0}=0
+    \end{equation}
+    Si se sustituye las ecuaciones (\ref{Masapoint1}) y (\ref{MasaPoint2}) en las ecuaciones (\ref{Equation 6}) y (\ref{equation 7}) se obtiene
+    \begin{equation}
+        \gamma_{+} \dot{C} e^{-\nu_{+}} = -\dfrac{1}{2\sqrt{2}}\left( \dfrac{ \left \{ m_{+} \right\}_{0}-4\pi r^{2}\dot{C}\bar{\rho}_{+}}{r}\left( 1-\dfrac{2m_{+}}{r}\right)^{-1} \dot{C}e^{-2\nu_{+}} + \dfrac{4\pi r^{3}\bar{P}_{+}+m_{+}}{r \left( r-2m_{+} \right)}\left(1-\dfrac{2m_{+}}{r} \right)^{1/2}\dot{C}e^{-\nu_{+}}\right), 
+    \end{equation}
+     \begin{equation}
+         \gamma_{-} \dot{C} e^{-\nu_{-}} = -\dfrac{1}{2\sqrt{2}}\left( \dfrac{ \left \{ m_{-}  \right\}_{0}-4\pi r^{2}\dot{C}\bar{\rho}_{-}}{r}\left( 1-\dfrac{2m_{-}}{r}\right)^{-1} \dot{C}e^{-2\nu_{-}} + \dfrac{4\pi r^{3}\bar{P}_{-}+m_{-}}{r \left( r-2m_{-} \right)}\left(1-\dfrac{2m_{-}}{r} \right)^{1/2}\dot{C}e^{-\nu_{-}}\right), 
+     \end{equation}
+    Al restarse las ecuaciones anteriores da
+    \begin{align}
+     \left[   \gamma \dot{C} e^{-\nu} \right]= -\dfrac{1}{2\sqrt{2}}\left[ \dfrac{ \left \{\left[ m \right]  \right\}_{0}-4\pi r^{2}\dot{C}\bar{\rho}}{r}\left( 1-\dfrac{2m}{r}\right)^{-1} \dot{C}e^{-2\nu} \right] + \\ \left[ \dfrac{4\pi r^{3}\bar{P}+m}{r \left( r-2m \right)}\left(1-\dfrac{2m}{r} \right)^{1/2}\dot{C}e^{-\nu}\right],
+     \label{Equation111}
+    \end{align}
+    si se realiza las mismas operaciones con el coeficiente $\epsilon$ se obtiene
+    \begin{align}
+        \left[   \epsilon \dot{C} e^{-\nu} \right]= \dfrac{1}{2\sqrt{2}}\left[ \dfrac{ \left \{\left[ m \right]  \right\}_{0}-4\pi r^{2}\dot{C}\bar{\rho}}{r}\left( 1-\dfrac{2m}{r}\right)^{-1} \dot{C}e^{-2\nu} \right] - \\ \left[ \dfrac{4\pi r^{3}\bar{P}+m}{r \left( r-2m \right)}\left(1-\dfrac{2m}{r} \right)^{1/2}\dot{C}e^{-\nu}\right],
+        \label{Equation211}
+    \end{align}
+    Al restarse las ecuaciones (\ref{Equation111}) y (\ref{Equation211}), se obtiene
+    \begin{align}
+        -\sqrt{2}C\dot{C}\left( \left[   \gamma  e^{-\nu} \right]-\left[   \epsilon  e^{-\nu} \right]\right)= \left[ \dfrac{ \left \{\left[ m \right]  \right\}_{0}-4\pi r^{2}\dot{C}\bar{\rho}}{r}\left( 1-\dfrac{2m}{r}\right)^{-1} \dot{C}e^{-2\nu} \right] 
+    \end{align}
+    \begin{align}
+        -\sqrt{2}C\dot{C}\left( \left[   \gamma  e^{-\nu} \right]-\left[   \epsilon  e^{-\nu} \right]\right)= \left[ \left \{ m   \right\}_{0} \left( 1-\dfrac{2m}{r} \right)^{-1} \dot{C}e^{-2\nu}\right]- \left[4\pi r^{2}\dot{C}\bar{\rho}\left( 1-\dfrac{2m}{r}\right)^{-1} \dot{C}e^{-2\nu} \right] 
+    \end{align}
+    \begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+superficie & $\left[m \right]=0$ & $\left[ \omega \right]=0$\\
+\hline \hline \hline
+Choque impulsivo & \XSolidBrush & \XSolidBrush\\ \hline
+Capa & \XSolidBrush &\checkmark \\ \hline
+Onda de choque & \checkmark & \XSolidBrush\\ \hline
+Frontera & \checkmark & \checkmark \\ \hline
+\end{tabular}
+\caption{Continuidad de la masa y la velocidad del fluido en 
+las diferentes superficies de acoplamiento }
+\label{tabla:sencilla}
+\end{center}
+\end{table}
+    
+\end{document}
